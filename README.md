@@ -9,7 +9,9 @@ The protons, initially flying from a point-like source with some small divergenc
 This is a difficult multi-parameter reverse task. To solve it, the simulations are carried out. They include:
 1) Assumption on the current carrying circuit. Without some initial idea of this contour, the number of solutions to the problem is infinite.
 2) Electromagnetic field calculation.
+
 ![image](https://user-images.githubusercontent.com/90211042/133005202-787bbd6d-022b-4c02-adb1-161fdc595b20.png)
+
 3) [Proton flight simulation](https://github.com/kofeinix/Ballistic_deflectometry) with field value iteration.
 4) Synthetic images comparation with experimental one for all field values. Finding the best match.
 5) Current carrying circuit modification. Go to (1) and repeat until the difference between images is the smallest.
