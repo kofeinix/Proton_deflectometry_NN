@@ -29,11 +29,11 @@ The images are located at .\2_parameters_data folder, and one experimental image
 
 ## CNN structure
 The CNN architecture is used, as it allows to detect similar patterns in different part of the data arrays, thus it is resistant to shift in structures in images. 
-*The CNN consists of three convolutional layers, each followed by a pooling layer. 
-*ReLu is used as activation function in the CNN
-*CNN output is flattened and foies to 10-neurons dense layer, and then to the 2 output parameters.
-*For final layers, Sigmoid activation is used.
-*Loss function is mean squared error and Optimizer is Adam.
+* The CNN consists of three convolutional layers, each followed by a pooling layer. 
+* ReLu is used as activation function in the CNN
+* CNN output is flattened and foies to 10-neurons dense layer, and then to the 2 output parameters.
+* For final layers, Sigmoid activation is used.
+* Loss function is mean squared error and Optimizer is Adam.
 
 ## Output data
 In the output folder, the trained model is saved, if so chosen in the beginning of the code.
