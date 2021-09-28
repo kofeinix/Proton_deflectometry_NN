@@ -38,6 +38,7 @@ The CNN architecture is used, as it allows to detect similar patterns in differe
 * CNN output is flattened and foies to 10-neurons dense layer, and then to the 2 output parameters.
 * For final layers, Sigmoid activation is used.
 * Loss function is mean squared error and Optimizer is Adam.
+
 ![nn_arch](https://user-images.githubusercontent.com/90211042/135176454-8c8ca61c-6978-4f9e-ba72-d923819438d1.png)
 
 ## Output data
