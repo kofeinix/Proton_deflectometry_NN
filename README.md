@@ -26,6 +26,9 @@ Input data are 500x500 (resised in the code to 256x256) binary images. They are 
 In can be noted, that both produced at [step 3 ](https://github.com/kofeinix/Ballistic_deflectometry) images and of course experimental images are not binary. However if they are compared right away, without preliminal pre-processing, the parameters extraction will have much bigger error. Thus all images are binarized by some script, not presented here.
 The images are located at .\2_parameters_data folder, and one experimental imaged is added to demonstrate the similarity between synthetic and experimental data.
 525 images are present for training, 143 for validation and 42 for final testing. 
+Example image - corresponds to current of 41.5 kA  and potential of 76 kV.
+![str_test_I=0 415e5A_U=76 0kV](https://user-images.githubusercontent.com/90211042/135173301-262d5e16-fe7f-4a41-b589-f2c3abc0ace3.png)
+
 
 ## CNN structure
 The CNN architecture is used, as it allows to detect similar patterns in different part of the data arrays, thus it is resistant to shift in structures in images. 
